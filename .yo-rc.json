@@ -1,0 +1,11 @@
+{
+  "generator-easy-ui5": {
+    "projectname": "piper-test",
+    "namespace": "demo",
+    "platform": "Static webserver",
+    "viewtype": "XML",
+    "viewname": "App",
+    "ui5libs": "Content delivery network (SAPUI5)",
+    "newdir": false
+  }
+}
