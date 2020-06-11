@@ -1,2 +1,5 @@
 general:
     buildTool: 'npm'
+steps:
+    mtaBuild:
+        applicationName: 'piper-test'
