@@ -14,9 +14,9 @@ pipeline {
             }
         }
 
-        stage('build') {
+         stage('build') {
             steps {
-                echo "stage: build"
+                mtaBuild script: this
             }
         }
 
