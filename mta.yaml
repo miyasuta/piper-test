@@ -1,16 +1,15 @@
 _schema-version: "2.0.0"
-ID: "demo.piper-test"
+ID: "piper-test"
 version: 0.0.1
 
 parameters:
   hcp-deployer-version: "1.0.0"
 
 modules:
-  - name: "piper-test"
+  - name: webapp
     type: html5
-    path: webapp
+    path: .
     parameters:
-      name: "piper-test"
       version: 0.0.1-${timestamp}
     build-parameters:
       builder: npm
