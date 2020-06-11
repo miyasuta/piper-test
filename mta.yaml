@@ -2,9 +2,6 @@ _schema-version: "2.0.0"
 ID: "piper-test"
 version: 0.0.1
 
-parameters:
-  hcp-deployer-version: "1.0.0"
-
 modules:
   - name: webapp
     type: html5
