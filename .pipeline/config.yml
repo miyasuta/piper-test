@@ -1,2 +1,6 @@
 general:
     buildTool: 'npm'
+    changeManagement:
+        type: 'CTS'
+        endpoint: 'http://117.247.238.172:8001/sap/opu/odata/sap/SCTS_CLOUD_API_ODATA_SRV/' 
+        credentialsId: 'abap_login'   

@@ -22,7 +22,8 @@ pipeline {
 
         stage('attach') {
             steps {
-                echo "stage: attach"
+                transportRequestUploadFile script: this,
+                transportRequestId: 'S4DK900047' 
             }
         }
     }
